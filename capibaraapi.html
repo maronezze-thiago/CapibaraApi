@@ -19,7 +19,7 @@
       align-items: center;
       overflow: hidden;
       font-family: 'Sora', sans-serif;
-      background: linear-gradient(-45deg, #ff6600, #ff9900, #ff3300, #ff6600);
+      background-color: blue;
       background-size: 400%;
       animation: bgAnimation 10s ease infinite;
     }
@@ -52,13 +52,12 @@
       flex-direction: column;
       align-items: center;
       gap: 20px;
-      background: rgba(255,255,255,0.15);
+      background: rgba(212, 209, 228, 0.15);
       backdrop-filter: blur(12px);
-      border: 2px solid rgba(255,255,255,0.25);
+      border: 2px solid rgba(163, 147, 192, 0.055);
       box-shadow: 0 0 20px rgba(255,255,255,0.1), 0 0 40px rgba(255,102,0,0.4);
       transform-style: preserve-3d;
       transition: 0.6s;
-      animation: floating 4s ease-in-out infinite;
     }
 
     @keyframes floating {
@@ -159,7 +158,7 @@
       overflow: hidden;
       border: none;
       background: white;
-      color: #ff6600;
+      color: #302d2c;
       padding: 14px 45px;
       border-radius: 40px;
       font-size: 16px;
@@ -204,15 +203,15 @@
     <div class="card-wrapper">
       <div class="capibara-card">
         <div class="shimmer-layer"></div>
-        <img src="Capivara 3x4.jpg" alt="Capibara" class="capivara-img">
+        <img src="Design sem nome.jpg" alt="Capibara" class="capivara-img">
 
         <div class="card-text">
-          <h3>Onde estou?</h3>
+          
           
           <input type="text" id="inputCep" class="cep-input" placeholder="Digite o CEP" maxlength="8">
           
           <div id="resultado">
-            <p>Descubra o endereço da capivara!</p>
+            <p>Pesquise a sua cidade!</p>
           </div>
 
           <button class="btn" id="btnBuscar">Buscar CEP</button>
